@@ -1,0 +1,13 @@
+.dataTables_length label,
+.dataTables_info {
+    margin-left: 20px;
+}
+
+.dataTables_filter label,
+.dataTables_paginate ul {
+    margin-right: 15px !important;
+}
+
+/* .dropify-wrapper .dropify-message span.file-icon {
+    font-size: x-large;
+} */

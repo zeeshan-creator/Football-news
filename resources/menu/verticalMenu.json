@@ -1,0 +1,64 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Pages"
+    },
+    {
+      "name": "News",
+      "icon": "menu-icon tf-icons bx bx-news",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "/news",
+          "name": "All News",
+          "slug": "News"
+        },
+        {
+          "url": "/news/create",
+          "name": "Create News",
+          "slug": "News"
+        }
+      ]
+    },
+    {
+      "name": "Promotions",
+      "icon": "menu-icon tf-icons bx bx-trending-up",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "/promotions",
+          "name": "All Promotions",
+          "slug": "Promotion"
+        },
+        {
+          "url": "/promotions/create",
+          "name": "Create Promotions",
+          "slug": "Promotion"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "/users",
+          "name": "All Users",
+          "slug": "User"
+        },
+        {
+          "url": "/users/create",
+          "name": "Create Users",
+          "slug": "User"
+        }
+      ]
+    }
+  ]
+}

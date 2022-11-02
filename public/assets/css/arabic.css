@@ -1,0 +1,147 @@
+aside#layout-menu {
+    direction: rtl;
+}
+
+.app-brand-link {
+    gap: 1rem;
+}
+
+.menu-vertical .menu-item .menu-toggle::after {
+    left: 1rem;
+    right: auto;
+}
+
+.menu-vertical .menu-item .menu-link,
+.menu-vertical .menu-block {
+    padding: 0.625rem 1rem;
+}
+
+.menu-vertical .menu-item .menu-toggle {
+    padding-right: 1rem;
+}
+
+.menu-vertical .menu-item .menu-toggle {
+    padding-left: calc(1rem + 1.26em);
+}
+
+.layout-menu-fixed .layout-menu,
+.layout-menu-fixed-offcanvas .layout-menu {
+    left: auto;
+    right: 0;
+}
+
+@media (min-width: 1200px) {
+
+    .layout-menu-fixed:not(.layout-menu-collapsed) .layout-page,
+    .layout-menu-fixed-offcanvas:not(.layout-menu-collapsed) .layout-page {
+        padding-left: 0;
+        padding-right: 16.25rem;
+    }
+}
+
+.ms-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.content-wrapper {
+    direction: rtl;
+}
+
+.dropdown-menu-end[data-bs-popper] {
+    right: auto;
+    left: 0;
+}
+
+.navbar-nav .dropdown-item {
+    direction: rtl;
+    text-align: right;
+}
+
+.me-3 {
+    margin-right: 0 !important;
+    margin-left: 1rem !important;
+}
+
+.me-2 {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+
+div#DataTables_Table_0_length {
+    padding: 1rem;
+}
+
+.float-start {
+    float: right !important;
+}
+
+.float-end {
+    float: left !important;
+}
+
+div#DataTables_Table_0_info {
+    padding: 1rem;
+}
+
+div#DataTables_Table_0_paginate {
+    padding: 1rem;
+}
+
+div#DataTables_Table_0_length label {
+    display: flex;
+    width: fit-content;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.bg-menu-theme .menu-sub>.menu-item>.menu-link:before {
+    right: 1.4375rem;
+    left: auto;
+}
+
+.bg-menu-theme .menu-header:before {
+    right: 0;
+}
+
+.alert-dismissible .btn-close {
+    left: 0 !important;
+}
+
+nav#layout-navbar {
+    flex-direction: row-reverse;
+}
+
+.app-brand .layout-menu-toggle {
+    left: auto;
+    right: 15rem;
+}
+
+.menu-header {
+    text-align: right;
+}
+
+div#DataTables_Table_0_filter {
+    padding: 0 1rem;
+}
+
+input[type=date] {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.nav {
+    padding-right: 0;
+}
+
+@media (max-width: 1199.98px) {
+    .layout-menu {
+        left: auto !important;
+        right: 0 !important;
+        transform: translate3d(100%, 0, 0);
+    }
+}
+
+text {
+    direction: initial;
+}
